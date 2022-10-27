@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3VcYMwJ/uin1/YmodY+iwOrt38DUBrVEVpi5eLy+T1a/E8uGX+HEAVwMC0SKOfGLb7CS+ko+jTuvUGZEdllbyg==",
+  "dgSpecHash": "1dCcE/SQpHOZpCKGPJ0k+Mbb3i8r+la5bDYN8I+yffFnpFxjBOgDzJJXxezaTxzD90gxwq5ceBO6ea4WRt0pGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\ios\\IOS\\IOS\\Client\\IOS.Client.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\L4YNX.github.io\\ios\\IOS\\Client\\IOS.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",

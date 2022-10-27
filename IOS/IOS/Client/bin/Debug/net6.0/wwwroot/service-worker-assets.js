@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-6WwB+q18dhclL0eLFKeLabJhzN7XnQKtBokAGVMuQ5Q=",
+      "hash": "sha256-Rv8DK96mVgcvGe5BSCkfmQNFkJLOOAgYhSJdkHC99eE=",
       "url": "css\/app.css"
     },
     {
@@ -857,19 +857,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-JcFtnBqIi7K2ypACjBDHCECvBFeplJSjm7c4NhwdWb4=",
+      "hash": "sha256-cydurxzylezqRfVSGwmLH\/\/6RcefN82HdXGpb5D20Mw=",
       "url": "_framework\/IOS.Shared.dll"
     },
     {
-      "hash": "sha256-nw5SQ29JBukbYoty5l9xXJq8VV1LrlkekcUnDBzT130=",
+      "hash": "sha256-zCwzR29NSufk8ft82wZ0gg0qjkXCkp+aEPagnmxLUz0=",
       "url": "_framework\/IOS.Shared.pdb"
     },
     {
-      "hash": "sha256-wghwK5B+FFPGW1Z21+u0cFK1nXp6yonEfRHxycmKtBw=",
+      "hash": "sha256-yxwNtiWGO90vzDFAasRmJKoSdrmX8G95GrGvRpnwJe0=",
       "url": "_framework\/IOS.Client.dll"
     },
     {
-      "hash": "sha256-O+FVx1XgTA4DV\/gtgXrft2\/xtsPqOgncgeI1HIRKzTQ=",
+      "hash": "sha256-tj1j+mx97ubJwOAgrB4SKdORrE4Y\/kYnAnFq7dbsYeU=",
       "url": "_framework\/IOS.Client.pdb"
     },
     {
@@ -877,9 +877,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-nsFuBj+2ziX0hbOaYsBLQwQ9FphmAetgOZGyIxq6RKc=",
+      "hash": "sha256-7U2WxQPXli7K446u+dINQMy63t3A3HjGz+xe7ufd0RI=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "KYGfiB0o"
+  "version": "LHsLQjkk"
 };

@@ -196,15 +196,15 @@
       "mscorlib.dll": "sha256-SboUbkX8s5RVQGtnN5Q67MBZW0I\/P3aeEMENJq8gv8M=",
       "netstandard.dll": "sha256-lZ8L5iiSghlvyt2ie2YdBYAtJbVa4mvpvBX3W9ihjLc=",
       "System.Private.CoreLib.dll": "sha256-jECkJy2Sjpl59QEL3nO3p8nwKGXvnJpXaKQF\/+MTw04=",
-      "IOS.Shared.dll": "sha256-JcFtnBqIi7K2ypACjBDHCECvBFeplJSjm7c4NhwdWb4=",
-      "IOS.Client.dll": "sha256-mcc7pZh+Vtv1BUZbxI5zxTO78\/jLVITDxtrJ6i6yFOg="
+      "IOS.Shared.dll": "sha256-uBwd6OMsmzYS0t9G\/wAoqr6fAgo+monQT\/9WyRtHOoQ=",
+      "IOS.Client.dll": "sha256-zdkRd0UobsPzFFNTv5XjUMW2OQBkSu+7G639X3WlJ1A="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "IOS.Shared.pdb": "sha256-nw5SQ29JBukbYoty5l9xXJq8VV1LrlkekcUnDBzT130=",
-      "IOS.Client.pdb": "sha256-1EfhfzLeOWJhfHiDIif3oWiNK4EQ6dQzz+z+tcjJ09U="
+      "IOS.Shared.pdb": "sha256-Of6Rn8D0KhE7X9cXDAy05k6IkXtk0fskvl8hprjkREc=",
+      "IOS.Client.pdb": "sha256-69yWLfOVFZt2ThrKFpmtJhw3gQCnLb1KLUBIebuV1bc="
     },
     "runtime": {
       "dotnet.6.0.10.7ztp4ow0wv.js": "sha256-KtM3Wrooexmrt5NmqvZfWoDPtNIe6wZqLopR6ToqUPg=",

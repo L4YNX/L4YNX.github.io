@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOS.Server", "IOS\Server\IOS.Server.csproj", "{27CD6F3B-FC0B-4AD1-B3AB-8E493B62453F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOS.Server", "IOS\Server\IOS.Server.csproj", "{27CD6F3B-FC0B-4AD1-B3AB-8E493B62453F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOS.Client", "IOS\Client\IOS.Client.csproj", "{E741552B-4724-40E0-91E1-86876DEC5945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOS.Client", "IOS\Client\IOS.Client.csproj", "{E741552B-4724-40E0-91E1-86876DEC5945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOS.Shared", "IOS\Shared\IOS.Shared.csproj", "{AAD2134C-87B0-4451-95BA-E891B5AB04A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOS.Shared", "IOS\Shared\IOS.Shared.csproj", "{AAD2134C-87B0-4451-95BA-E891B5AB04A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

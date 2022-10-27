@@ -13,11 +13,11 @@ a, .btn-link {
 }
 
 .btn-primary {
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     color: #fff;
     background-color: #1b6ec2;
-    border-color: #1861ac;
+    border-color: #0071c1;
 }
 
 .content {
