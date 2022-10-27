@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\bin\Debug\net6.0\IOS.Shared.deps.json
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\bin\Debug\net6.0\IOS.Shared.dll
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\bin\Debug\net6.0\IOS.Shared.pdb
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\IOS.Shared.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\IOS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\IOS.Shared.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\IOS.Shared.AssemblyInfo.cs
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\IOS.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\IOS.Shared.dll
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\refint\IOS.Shared.dll
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\IOS.Shared.pdb
+C:\Users\Admin\Desktop\ios\IOS\IOS\Shared\obj\Debug\net6.0\ref\IOS.Shared.dll

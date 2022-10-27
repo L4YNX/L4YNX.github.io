@@ -1,0 +1,45 @@
+﻿@page "/"
+<PageTitle>Aplikacja</PageTitle>
+<p>
+    <input @bind="a" placeholder="a"/>
+</p>
+
+<p>
+    <input @bind="b" placeholder="b"/>
+</p>
+
+<p>
+    <input @bind="c" placeholder="c" />
+</p>
+
+ @a*x^2 +@b*x +@c
+
+ <br />
+<button class="btn btn-primary" @onclick="Oblicz">Oblicz</button>
+<br />
+<b role="status" style="color:red">@error</b>
+@code {
+    private double? a;
+    private double? b;
+    private double? c;
+    private double? delta;
+    private byte? pierwiastki=0;
+    private string error;
+    private void Oblicz(){
+        if (a==0)
+        {
+            error = "a nie moze byc 0!!";
+        }else
+        {
+            error = "";
+
+            delta = b * b - 4 * a * c;
+
+            if (delta < 0) pierwiastki = 0;
+            if (delta == 0) pierwiastki = 1;
+            if (delta > 0) pierwiastki = 2;
+        }
+    }
+    
+    private string? InputValue { get; set; }
+}

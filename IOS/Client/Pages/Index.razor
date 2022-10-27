@@ -1,0 +1,99 @@
+﻿@page "/"
+<PageTitle>Funkcja Kwadratowa</PageTitle>
+<a target="_blank" href="https://www.matemaks.pl/funkcja-kwadratowa.html"><TitleComponent Department="Funkcja Kwadratowa"></TitleComponent></a>
+<style>
+    .przyc {
+        background-color: #1b6ec2;
+        height: 35px;
+        width: 150px;
+        border-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+    }
+
+        .przyc:hover {
+            background-color: #0071c1;
+            border-color: #1861ac;
+            text-align: center;
+            color: white;
+        }
+</style>
+<p>
+    a: <input @bind="a" placeholder="a" /><br />
+    <b style="color:red">@error</b>
+</p>
+
+<p>
+    b: <input @bind="b" placeholder="b" />
+</p>
+
+<p> 
+    c: <input @bind="c" placeholder="c"/>
+</p>
+
+@a*x<sup>2</sup> +@b*x +@c
+<br />
+@b<sup>2</sup> -4*@a*@b = @delta
+<br />
+@pier
+
+<br />
+<button class="przyc" @onclick="Oblicz">Oblicz</button>
+<br />
+<b>@brak</b><br />
+x<sub>1</sub>= @x1
+<br />
+x<sub>2</sub>= @x2
+<br />
+<a target="_blank" href="https://www.matemaks.pl/program-do-rysowania-wykresow-funkcji.html">Tu mozesz sobie narysowac jak wyglada ta funkcja</a>
+@code {
+    private double a;
+    private double b;
+    private double c;
+    private string error,brak,pier;
+    private double delta;
+    private byte pierwiastki;
+    private double x1,x2;
+
+    private void Oblicz(){
+        if (a==0)
+        {
+            error = "a nie moze byc 0";
+        }else{
+            error = "";
+
+            delta = (b * b) - (4 * a * c);
+
+            if (delta < 0) pierwiastki = 0;
+            if (delta == 0) pierwiastki = 1;
+            if (delta > 0) pierwiastki = 2;
+        }
+        switch(pierwiastki){
+
+            case 0:
+                brak = "Brak Wyników!";
+                x1 = 0;
+                x2 = 0;
+                pier = "";
+                break;
+
+            case 1:
+                x1 = -b / (2 * a);
+                x2 = 0;
+                brak = "";
+                pier = "√"+@delta;
+                break;
+
+            case 2:
+                x1 = (-b - Math.Sqrt(delta)) / (2 * a);
+                x2 = (-b + Math.Sqrt(delta)) / (2 * a);
+                brak = "";
+                pier = "√"+@delta;
+                break;
+        }
+        x1 = double.Parse(String.Format("{0:N2}", x1));
+        x2 = double.Parse(String.Format("{0:N2}", x2));
+    }
+    private string? InputValue { get; set; }
+}

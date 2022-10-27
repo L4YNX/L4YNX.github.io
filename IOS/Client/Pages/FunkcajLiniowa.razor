@@ -1,0 +1,58 @@
+﻿@page "/funkcja"
+<PageTitle>Funkcja liniowa</PageTitle>
+<a target="_blank" href="https://www.matemaks.pl/funkcja-liniowa.html"><TitleComponent Department="Funkcja Liniowa"></TitleComponent></a>
+<style>
+    .przyc {
+        background-color: #1b6ec2;
+        height: 35px;
+        width: 150px;
+        border-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+    }
+
+        .przyc:hover {
+            background-color: #0071c1;
+            border-color: #1861ac;
+            text-align: center;
+            color: white;
+        }
+</style>
+<p>
+    a: <input @bind="a" placeholder="a" /><br />
+    <b style="color:red">@error</b>
+</p>
+
+<p>
+    b: <input @bind="b" placeholder="b" />
+</p>
+
+<p>
+    c: <input @bind="c" placeholder="c" />
+</p>
+<br/>
+<button class="przyc" @onclick="ObliczF">Oblicz</button>
+<br />
+@a*x +@b = @c<br />
+@a*x +@b - @c<br />
+x = @x1
+<br />
+<a target="_blank" href="https://www.matemaks.pl/program-do-rysowania-wykresow-funkcji.html">Tu mozesz sobie narysowac jak wyglada ta funkcja</a>
+
+@code {
+    private double a, b, c, x1;
+    private string error;
+
+    private void ObliczF(){
+
+        if(a==0){
+
+            error = "a nie moze byc 0!";
+        }else{
+
+            x1 = (c / a) - (b / a);
+            x1 = double.Parse(String.Format("{0:N2}", x1));
+        }
+    }
+}

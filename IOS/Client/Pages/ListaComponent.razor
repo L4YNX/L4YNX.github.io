@@ -1,0 +1,63 @@
+﻿@page "/list"
+<PageTitle>Lista</PageTitle>
+<TitleComponent Department="Lista"></TitleComponent>
+
+<style>
+    .przyc {
+        background-color: #1b6ec2;
+        height: 35px;
+        width: 150px;
+        border-color: transparent;
+        border-radius: 5px;
+        text-align:center;
+        color:white;
+    }
+
+    .przyc:hover {
+        background-color: #0071c1;
+        border-color: #1861ac;
+        text-align:center;
+        color:white;
+    }
+</style>
+
+<p>
+    <sub style="color:red">mozesz dodac tylko 100 elementow!</sub><br /><sub>ile liczb chcesz przypisac?</sub><br />
+    <input @bind="a" placeholder="Dodaj do listy" />
+</p>
+<p>
+    <sub>Podaj liczbe jaka chcesz przypisac</sub><br />
+    <input @bind="b" placeholder="Jaka liczbe chcesz przypisac" /><br />
+    <sup style="color:red">@error</sup>
+</p>
+<button class="przyc" @onclick="Dodaj">Dodaj do listy</button>
+<br /><br />
+wartosc jaka dodales to: @tab[m]<br />
+<sup style="color:red">@error2</sup><br />
+
+
+@code {
+    private int a;
+    private float b,c;
+    private string error,error2;
+    private int m = 0;
+    private float[] tab =new float[100];
+
+    private void Dodaj(){
+
+        if (b == 0)
+        {
+            error = "b nie moze byc puste!!";
+        }
+        else
+        {
+            for (int i = 0; i <= a; i++)
+            {
+                tab[i] = b;
+            }
+        }
+        m++;
+        if (m > a) error2 = "Podales wiecej liczb niz wpisales na poczatku";
+    }
+
+}
